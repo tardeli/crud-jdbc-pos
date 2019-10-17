@@ -40,7 +40,7 @@ public class Principal {
             System.out.println("| 0-SAIR                   |");
             System.out.println("|==========================|");
             System.out.println("Escolha uma opção: ");
-            opcao = tp.teclado.nextInt();
+            opcao = tp.getTeclado().nextInt();
             System.out.println("\n");
     }
 
