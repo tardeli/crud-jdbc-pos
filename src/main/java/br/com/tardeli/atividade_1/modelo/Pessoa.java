@@ -11,6 +11,10 @@ public class Pessoa {
     public Pessoa() {
     }
 
+    public void setCodigo(long codigo) {
+        this.codigo = codigo;
+    }
+    
     public Pessoa(String nome) {
         this.nome = nome;
     }
